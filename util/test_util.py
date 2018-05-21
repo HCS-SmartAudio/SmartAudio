@@ -34,7 +34,8 @@ class TestUtil(TestBase):
        :param key_name:
        :return: Event id
        """
-       DOMTree = ET.parse(self.current_folder_path[0] + self.config.get('FileSection', 'EventKeyFileLocation'))
+       DOMTree = ET.parse(self.current_folder_path[0] +
+                          self.config.get('FileSection', 'EventKeyFileLocation').replace("'", ""))
        keys = key_name.split(" ")
 
        item_list = DOMTree.getroot()
@@ -52,7 +53,8 @@ class TestUtil(TestBase):
         param key_name:
         :return: Event value
         """
-        DOMTree = ET.parse(self.current_folder_path[0] + self.config.get('FileSection', 'EventKeyFileLocation'))
+        DOMTree = ET.parse(self.current_folder_path[0] +
+                           self.config.get('FileSection', 'EventKeyFileLocation').replace("'", ""))
         keys = key_name.split(" ")
 
         item_list = DOMTree.getroot()

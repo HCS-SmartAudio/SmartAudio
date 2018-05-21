@@ -1,9 +1,19 @@
+"""
+For custom logs
+"""
+
 import inspect
 import logging
 import os
 
 
 def custom_logger(loglevel):
+    """
+    Function for custom logger
+
+    :param loglevel:
+    :return: logger object
+    """
     current_folder_path = os.path.split(os.getcwd())
     # Gets the name of the class / method from where this method is called
     logger_name = inspect.stack()[1][3]
