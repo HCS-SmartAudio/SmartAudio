@@ -1,13 +1,13 @@
 import unittest
-from ExcelHandler import ExcelHandle
+from util.ExcelHandler import ExcelHandle
 import HtmlTestRunner
-import ma1
+
 
 '''
-TestExcelHandler: Class defined to execute the Excel Handle class.
+Sanity_TestCases: Class defined to run sanity test cases.
 '''
 
-class TestExcelHandler(unittest.TestCase):
+class Sanity_TestCases(unittest.TestCase):
 
     '''
     Setup Function: Create an object for Excel Handle class and access the functions defined in the class.
@@ -42,10 +42,8 @@ class TestExcelHandler(unittest.TestCase):
         self.cell_three = self.obj.read_celldata(self.sheet_name, int(next(row_no)))
 
 
-#if __name__ == '__main__':
-
-ma1.main()
-unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="D:\\report.html"))
+if __name__ == '__main__':
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="D:\\report.html"))
 
 
 
