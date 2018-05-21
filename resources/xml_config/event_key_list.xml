@@ -1,0 +1,11 @@
+<boombox>
+<power>
+    <on id="POWER ON">1</on>
+    <down id="POWER DOWN">2</down>
+    <off id="POWER DOWN">3</off>
+</power>
+<BT>
+<on></on>
+</BT>
+    <charging></charging>
+</boombox>
