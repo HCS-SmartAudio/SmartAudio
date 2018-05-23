@@ -5,6 +5,7 @@ For custom logs
 import inspect
 import logging
 import os
+import datetime
 
 
 def custom_logger(loglevel):
@@ -15,6 +16,8 @@ def custom_logger(loglevel):
     :return: logger object
     """
     current_folder_path = os.path.split(os.getcwd())
+    current_date_time = str(datetime.datetime.now()).replace(" ", "-").split('.')[0]
+    log_file = '\logs\\' + current_date_time + '.log'
     # Gets the name of the class / method from where this method is called
     logger_name = inspect.stack()[1][3]
     logger = logging.getLogger( __name__ )

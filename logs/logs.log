@@ -1,2 +1,4 @@
-21/05/2018 02:15:14 PM - [test_util.py: search_for_event_value: 65] - INFO: Event id found 1
-21/05/2018 02:15:14 PM - [test_util.py: search_for_event_id: 46] - INFO: Event id found POWER ON
+23/05/2018 06:46:37 PM - [test_util.py: search_for_event_id: 47] - INFO: Event id found POWER ON
+23/05/2018 06:46:37 PM - [sanity_test_suite.py: test_read_first_cell: 22] - INFO: Key name is: POWER ON
+23/05/2018 06:46:37 PM - [test_util.py: search_for_event_value: 66] - INFO: Event id found 1
+23/05/2018 06:46:37 PM - [sanity_test_suite.py: test_read_first_cell: 24] - INFO: Key name is: 1

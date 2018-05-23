@@ -3,20 +3,21 @@ Class for maintaining common test functions
 """
 import re
 import os
+import logging
 import xml.etree.cElementTree as ET
 
-from controller.test_base import TestBase
+import util.config_reader as cf
+import logger.custom_logger as cl
 
 
-class TestUtil(TestBase):
+class TestUtil():
     """
      Test Utility Class
     """
     search_list = ['power on', 'power off', 'power down']
     current_folder_path = os.path.split(os.getcwd())
-
-    def __init__(self):
-        super(TestUtil, self).__init__()
+    config = cf.read_config_file()
+    log = cl.custom_logger(logging.DEBUG)
 
     def search_for_event_key(self, cell_data):
         """
@@ -27,6 +28,7 @@ class TestUtil(TestBase):
         for element in self.search_list:
             if re.search(element, cell_data.lower()):
                 return element
+        #return "Key Not Found"
 
     def search_for_event_id(self, key_name):
        """
@@ -37,7 +39,6 @@ class TestUtil(TestBase):
        DOMTree = ET.parse(self.current_folder_path[0] +
                           self.config.get('FileSection', 'EventKeyFileLocation').replace("'", ""))
        keys = key_name.split(" ")
-
        item_list = DOMTree.getroot()
 
        for elem in item_list.findall("./" + keys[0] + "/" + keys[1]):
