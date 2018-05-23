@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4dd8bfc-daea-448f-a1d3-9b563cac040d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Rough/uiautomatortest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rough/uiautomator.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/test_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger/custom_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/logger/custom_logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/properties/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/ExcelHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/ExcelHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/test_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/test_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/sanity_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/sanity_testcases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ExcelHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/excel_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +21,7 @@
       <file leaf-file-name="test_base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/test_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="380">
               <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
               <folding>
                 <element signature="e#8#22#0" expanded="true" />
@@ -33,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config_reader.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config_reader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/config_reader.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
@@ -48,7 +45,7 @@
       <file leaf-file-name="custom_logger.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logger/custom_logger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
+            <state relative-caret-position="220">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#25#39#0" expanded="true" />
@@ -66,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sanity_test_suite.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sanity_test_suite.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/sanity_test_suite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="97">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -78,8 +75,8 @@
       <file leaf-file-name="html_runner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/html_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="83">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -176,51 +173,6 @@
             <path>
               <item name="SmartAudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartAudio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartAudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartAudio" type="462c0819:PsiDirectoryNode" />
-              <item name="android_ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartAudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartAudio" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartAudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartAudio" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartAudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartAudio" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartAudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartAudio" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartAudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartAudio" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartAudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartAudio" type="462c0819:PsiDirectoryNode" />
-              <item name="Rough" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartAudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartAudio" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartAudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartAudio" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SmartAudio" type="b2602c69:ProjectViewProjectNode" />
@@ -387,7 +339,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527081843773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="optimized code">
+      <created>1527082058674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527082058674</updated>
+    </task>
+    <task id="LOCAL-00003" summary="optimized code">
+      <created>1527082176636</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527082176636</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -435,13 +401,13 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24880762" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24880762" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3291592" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3291592" />
-      <window_info anchor="bottom" id="Version Control" order="3" visible="true" weight="0.3291592" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.037567083" />
       <window_info anchor="bottom" id="Python Console" order="0" weight="0.3291592" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.30053666" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3899821" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.22719142" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -481,7 +447,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated init file" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated init file" />
+    <MESSAGE value="optimized code" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimized code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,46 +704,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rough/time_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="31" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/logs.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logger/custom_logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#25#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/ExcelHandler.py">
+    <entry file="file://$PROJECT_DIR$/util/excel_handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1583">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
             <element signature="e#1#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/test_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-          <folding>
-            <element signature="e#8#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -819,29 +752,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/sanity_test_suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/html_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcases/sanity_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-287">
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/logs.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -852,6 +775,50 @@
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logger/custom_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rough/time_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="31" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/html_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/test_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <element signature="e#8#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/sanity_test_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>

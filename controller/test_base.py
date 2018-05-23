@@ -6,7 +6,7 @@ import unittest
 
 import util.config_reader as cf
 import logger.custom_logger as cl
-from util.ExcelHandler import ExcelHandle
+from util.excel_handler import ExcelHandle
 from util.test_util import TestUtil
 
 

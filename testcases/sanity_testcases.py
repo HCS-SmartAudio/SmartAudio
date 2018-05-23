@@ -1,5 +1,5 @@
 import unittest
-from util.ExcelHandler import ExcelHandle
+from util.excel_handler import ExcelHandle
 import HtmlTestRunner
 
 

@@ -1,1 +1,1 @@
-__all__ = ["config_reader", "device_bluetooth_on_off", "ExcelHandler", "test_util", "html_runner"]
+__all__ = ["config_reader", "device_bluetooth_on_off", "excel_handler.py", "test_util", "html_runner"]
