@@ -14,8 +14,8 @@ class ExcelHandle:
 
     '''
     open_excel_file : Function defined to open an excel file.
-    Parameters In: File location and sheetname
-    Parameters Out: sheet name, workbook name
+    Parameters: File location and sheet name
+    Return Type: sheet name, workbook name
     '''
 
     def open_excel_file(self, file_location, sheetname):
@@ -24,12 +24,12 @@ class ExcelHandle:
         return sname, workbook
 
     '''
-    getcolnameforsteps: Function defined to get the column name for deriving steps from the same.
-    Parameters In: sheetname and column heading
-    Parameters Out: column name
+    get_col_name_for_steps: Function defined to get the column number for deriving steps from the same.
+    Parameters: sheet name and column heading
+    Return Type: column number
     '''
 
-    def getcolnameforsteps(self, sname, colheading):
+    def get_col_name_for_steps(self, sname, colheading):
         cols = sname.max_column
         print(cols)
         for i in range(cols):
@@ -40,7 +40,7 @@ class ExcelHandle:
 
     '''
     update_results: Function defined to update the results in the excel sheet.
-    Parameters In: workbook, sheet_name, row no, result
+    Parameters: workbook, sheet_name, row no, result
     '''
 
     def update_results(self, wb, sname, row, results):
@@ -53,7 +53,7 @@ class ExcelHandle:
 
     '''
     read_rowdata: Function defined to read the data from a row
-    Parameters In: sheetname
+    Parameters: sheet name
     '''
 
     def read_rowdata(self,sname):
@@ -66,8 +66,8 @@ class ExcelHandle:
 
     '''
     read_celldata: Function defined to read the data from a cell
-    Parameters In: sheetname, row number
-    Parameters Out: Cell data
+    Parameters: sheet name, row number
+    Return Type: Cell data
     '''
 
     def read_celldata(self, sname, rownum):
@@ -75,8 +75,8 @@ class ExcelHandle:
 
     '''
     get_row_count: Function defined to get the maximum number of rows
-    Parameters In: sheetname
-    Parameters Out: maximum number of rows
+    Parameters: sheet name
+    Return Type: maximum number of rows
     '''
 
     def get_row_count(self,sname):
@@ -84,8 +84,8 @@ class ExcelHandle:
 
     '''
     get_column_count: Function defined to get the maximum number of columns
-    Parameters In: sheetname
-    Parameters Out: maximum number of columns
+    Parameters: sheet name
+    Return Type: maximum number of columns
     '''
 
     def get_column_count(self,sname):
