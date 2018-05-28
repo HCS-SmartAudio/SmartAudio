@@ -1,4 +1,6 @@
-23/05/2018 06:46:37 PM - [test_util.py: search_for_event_id: 47] - INFO: Event id found POWER ON
-23/05/2018 06:46:37 PM - [sanity_test_suite.py: test_read_first_cell: 22] - INFO: Key name is: POWER ON
-23/05/2018 06:46:37 PM - [test_util.py: search_for_event_value: 66] - INFO: Event id found 1
-23/05/2018 06:46:37 PM - [sanity_test_suite.py: test_read_first_cell: 24] - INFO: Key name is: 1
+28/05/2018 11:10:10 AM - [event_handler.py: search_for_event_id: 47] - INFO: Event id found POWER ON
+28/05/2018 11:10:10 AM - [sanity_test_suite.py: test_read_first_cell: 30] - INFO: Key name is: POWER ON
+28/05/2018 11:10:10 AM - [event_handler.py: search_for_event_value: 66] - INFO: Event id found 1
+28/05/2018 11:10:10 AM - [sanity_test_suite.py: test_read_first_cell: 32] - INFO: Key name is: 1
+28/05/2018 11:10:10 AM - [event_handler.py: search_for_event_id: 47] - INFO: Event id found POWER DOWN
+28/05/2018 11:10:10 AM - [sanity_test_suite.py: test_read_third_cell: 52] - INFO: Key name is: POWER DOWN

@@ -10,7 +10,7 @@ import util.config_reader as cf
 import logger.custom_logger as cl
 
 
-class TestUtil():
+class EventHandler():
     """
      Test Utility Class
     """

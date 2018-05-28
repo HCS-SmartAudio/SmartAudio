@@ -5,7 +5,7 @@ import openpyxl
 import re
 
 
-class ExcelHandle(object):
+class ExcelHandler(object):
     colheading = ["Steps to be followed", "Expected output/observation", "Results"]
     steptitle = "Steps to be followed"
     stepexpected = "Expected output/observation"

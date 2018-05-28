@@ -1,6 +1,6 @@
 import os
 import xml.etree.cElementTree as ET
-from util.test_util import TestUtil
+from util.event_handler import EventHandler
 
 current_folder_path = os.path.split(os.getcwd())
 print(current_folder_path[0]+"\Resources\EventKeyList.xml")
@@ -17,7 +17,7 @@ for child_of_root in itemList:
 for elem in itemList.findall("./"+k1[0]+"/"+k1[1]):
     print(elem.attrib, elem.text)
 
-ss = TestUtil()
+ss = EventHandler()
 ss.search_for_event_id("power on")
 print(ss.search_for_event_id("power on"))
 print(ss.search_for_event_value("power on"))

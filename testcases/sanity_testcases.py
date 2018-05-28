@@ -1,5 +1,5 @@
 import unittest
-from util.excel_handler import ExcelHandle
+from util.excel_handler import ExcelHandler
 import HtmlTestRunner
 
 
@@ -14,7 +14,7 @@ class Sanity_TestCases(unittest.TestCase):
     Return value: row count, row number
     '''
     def setUp(self):
-        self.obj = ExcelHandle()
+        self.obj = ExcelHandler()
         self.sheet_name = self.obj.open_excel_file("D:\\Result.xlsx", "Sheet1")[0]
         self.assertIn("Sheet1", str(self.sheet_name).strip())
         self.row_count = self.obj.get_row_count(self.sheet_name)
