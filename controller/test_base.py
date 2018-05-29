@@ -1,4 +1,6 @@
 """
+Base class
+
 """
 import logging
 import os
@@ -11,13 +13,14 @@ from util.event_handler import EventHandler
 
 
 class TestBase(unittest.TestCase):
+    log = cl.custom_logger(logging.DEBUG)
+    config = cf.read_config_file()
+    current_folder_path = os.path.split(os.getcwd())
+    excel_handler = ExcelHandler()
+    event_handler = EventHandler()
+
     def __init__(self, *args, **kwargs):
-        unittest.TestCase.__init__(self, *args, **kwargs)
-        self.log = cl.custom_logger(logging.DEBUG)
-        self.config = cf.read_config_file()
-        self.current_folder_path = os.path.split(os.getcwd())
-        self.excel_handler = ExcelHandler()
-        self.event_handler = EventHandler()
+          unittest.TestCase.__init__(self, *args, **kwargs)
 
 
 
